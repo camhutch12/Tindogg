@@ -10,6 +10,7 @@ body {
 
 .container-fluid {
     padding: 3% 15%;
+    padding-bottom: 7%;
     margin-left: 60%;
 }
 
@@ -25,7 +26,23 @@ body {
 /*title image */
 .iphone {
     transform: rotate(30deg);
-    width: 60%;
+    width: 59%;
+    position: absolute;
+    right: 35%;
+
+}
+
+@media (max-width: 1028px) {
+
+    #title {
+        text-align: center;
+    }
+
+    .iphone {
+        transform: rotate(0deg);
+        position: static;
+
+    }
 }
 
 /*Nav bar*/
@@ -66,6 +83,9 @@ body {
 .features-container{
     text-align: center;
     padding: 7% 15%;
+    background-color: white;
+    position: relative;
+    z-index: 1;
 }
 
 
@@ -142,4 +162,64 @@ h2{
 .carousel-item{
     padding: 7% 15%;
 }
+
+.pricing {
+    text-align: center;
+    font-family: Ubuntu, sans-serif;
+    font-size: larger;
+    color: #8f8f8f;
+    padding: 5% 0;
+}
+
+#pricing-title {
+    font-family: Montserrat-Black, sans-serif;
+    font-weight: bold;
+    color: black;
+    line-height: 1.5;
+    font-size: 3.5rem;
+}
+
+#cta {
+    text-align: center;
+    background-color: #ff4c68;
+    padding: 7% 14%;
+    padding-bottom: 5%;
+}
+
+#final-header {
+    font-family: Montserrat-Black, sans-serif;
+    text-align: center;
+    font-size: 3.5rem;
+    color: #fff;
+    font-weight: bolder;
+    margin: 0 3rem;
+
+}
+
+@media (max-width: 833px) {
+    #final-header {
+        font-size: 2rem;
+    }
+
+}
+
+@media (max-width: 600px) {
+    #final-header {
+        font-size: 1.8rem;
+    }
+}
+
+.lastbtn {
+    align-content: center;
+}
+
+#footer {
+    text-align: center;
+    padding: 4% 15%;
+}
+
+.fa-btn-icons {
+    padding: 1%;
+}
+
 

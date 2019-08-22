@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <title>Tindog</title>
     <!-- Latest compiled and minified CSS -->
-    <link rel="stylesheet" href="../css/style.css">
+    <link href="css/style.css" rel="stylesheet">
     <!--    Bootstrap-->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
           integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
@@ -76,7 +76,7 @@
 
 
             <div class="col-lg-6">
-                <img class="iphone" src="../images/iphone6.png" alt="iphone picture">
+                <img alt="iphone picture" class="iphone" src="images/iphone6.png">
             </div>
 
         </div>
@@ -125,7 +125,7 @@
 
                 <h2>I no longer have to sniff other dogs for love. I've found the hottest Corgi on TinDog. Woof</h2>
                 <span>
-    <img class="dog-picture" src="../images/dog-img.jpg" alt="">
+    <img alt="" class="dog-picture" src="images/dog-img.jpg">
         <p class="testimonial-text"><em>pebbles, New York</em>
         </p>
 </span>
@@ -133,7 +133,7 @@
             <div class="carousel-item " data-interval="500">
                 <h2>I met life partner using this app, We have been together for 4 years now </h2>
                 <span>
-    <img class="dog-picture" src="../images/Shih-Tzu-happy.jpg" alt="">
+    <img alt="" class="dog-picture" src="images/Shih-Tzu-happy.jpg">
         <p class="testimonial-text"><em>Toronto, Ontario</em>
         </p>
 </span>
@@ -157,17 +157,18 @@
 
 <section id="press">
     <span>
-    <img class="logos" src="../images/TechCrunch.png" alt="TechCrunch">
-    <img class="logos" src="../images/tnw.png" alt="tnw">
-    <img class="logos" src="../images/bizinsider.png" alt="biz">
-    <img class="logos" src="../images/mashable.png" alt="mashable">
+    <img alt="TechCrunch" class="logos" src="images/TechCrunch.png">
+    <img alt="tnw" class="logos" src="images/tnw.png">
+    <img alt="biz" class="logos" src="images/bizinsider.png">
+    <img alt="mashable" class="logos" src="images/mashable.png">
 </span>
 </section>
 
 <section id="pricing">
-
-
-
+    <div class="pricing">
+        <h3 id="pricing-title">A plan for Every Dog's Needs</h3>
+        <p>simple and affordable price plans for you and your dog</p>
+    </div>
 
     <div class=" mb-3 text-center row">
 
@@ -218,18 +219,23 @@
     </div>
 
 
-    <h3>A plan for Every Dog's Needs</h3>
-    <p>simple and affordable price plans for you and your dog</p>
+
 
 </section>
 
 <!--Call to action-->
 
 <section id="cta">
-    <h3>Find the True Love of Your Dog Life Today</h3>
+    <h3 id="final-header">Find the True Love of Your Dog Life Today</h3>
     <span>
-<button type="button">download </button>
-<button type="button">download </button>
+   <button class=" btn btn-dark btn-lg downloadbtn lastbtn" type="button">
+                    <i class="fab fa-apple"></i>
+                    download
+                </button>
+                <button class="btn btn-light btn-lg downloadbtn lastbtn" type="button">
+                    <i class="fab fa-android"></i>
+                    download
+                </button>
 
 </span>
 </section>
@@ -238,6 +244,10 @@
 
 <footer id="footer">
 
+    <i class="fab fa-twitter fa-btn-icons"></i>
+    <i class="fab fa-facebook-f fa-btn-icons"></i>
+    <i class="fab fa-instagram fa-btn-icons"></i>
+    <i class="fas fa-envelope fa-btn-icons"></i>
     <p>© Copyright 2019 TinDog</p>
 
 </footer>
